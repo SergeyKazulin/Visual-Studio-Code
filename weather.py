@@ -7,7 +7,7 @@ from pyowm.utils import timestamps
 
 
 config_dict = config.get_default_config_for_subscription_type('professional')
-owm = OWM('e18d14ff3baa928f5fba8208972bce80', config_dict)
+owm = OWM('ввести код полученный на сайте https://openweathermap.org/', config_dict)
 owm.supported_languages
 config_dict['language'] = 'ru'
 mgr = owm.weather_manager()
